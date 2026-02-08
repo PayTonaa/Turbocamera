@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div class='sidebar'>
+        <a href='/' class='active'>Dashboard</a>
+        <a href='/history.html'>Historia</a>
+    </div>
+
+    <div class='content'>
+        <h1>Ostatni pomiar</h1>
+
+        <div class='card'>
+            <h2>Temperatura: <span id='temp'>--</span> °C</h2>
+        </div>
+
+        <div class='card'>
+            <h2>Odległość: <span id='dist'>--</span> cm</h2>
+        </div>
+
+        <div class='card'>
+            <h2>Status: <span id='status'>--</span></h2>
+        </div>
+    </div>
+
+    <script src="/js/dashboard.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+POST https://localhost:7045/measurement
+Content-Type: application/json
+
+{
+  "Temperature": 36.8,
+  "Distance": 200
+}

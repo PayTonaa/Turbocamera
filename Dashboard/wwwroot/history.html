@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Historia</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div class='sidebar'>
+        <a href='/'>Dashboard</a>
+        <a href='/history.html' class='active'>Historia</a>
+    </div>
+
+    <div class='content'>
+        <h1>Historia pomiarów</h1>
+
+        <div class='card'>
+            <div class='table-container' id="history-container">
+                <table>
+                    <thead>
+                        <tr><th>Czas</th><th>Temperatura</th><th>Odległość</th></tr>
+                    </thead>
+                    <tbody id="hist"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/history.js"></script>
+</body>
+</html>
